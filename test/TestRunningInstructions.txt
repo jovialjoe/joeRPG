@@ -1,0 +1,6 @@
+cmake .
+make
+lcov --zerocounters --directory .
+./bin/test
+lcov --capture --directory . --output-file gtest_coverage.info
+genhtml gtest_coverage.info --output-directory CODE_COVERAGE

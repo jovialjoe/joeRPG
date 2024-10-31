@@ -1,0 +1,16 @@
+/bin
+/CMakeFiles
+/CODE_COVERAGE
+/googletest-build
+/googletest-buildif
+/googletest-download
+/googletest-src
+/lib
+cmake_install.cmake
+CMakeCache.txt
+gtest_coverage.info
+Makefile
+play
+/test/valgrind
+/test/CMakeFiles/
+/test/Makefile

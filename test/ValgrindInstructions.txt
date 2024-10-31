@@ -1,0 +1,4 @@
+cd test/
+cmake .
+make
+valgrind --leak-check=full ./valgrind
